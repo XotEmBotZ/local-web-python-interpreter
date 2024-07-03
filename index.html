@@ -18,11 +18,21 @@
             });
         }
     </script>
+    <h1 style="font-style: 8rem;text-align:center">XotEmBotZ-Local Web Python</h1>
     <div id="status"></div>
     <button type="button"
         style="text-align: center; background: aqua; padding: 0 4px; border: none; border-radius: 6px; margin-left: 26px;"><a
             href="index.html">Clear All</a></button>
+    <button type="button"
+        style="text-align: center; background: aqua; padding: 0 4px; border: none; border-radius: 6px; margin-left: 26px;" id="clrCache">Clear Cache</button>
     <py-repl id="demo-repl" auto-generate="true"></py-repl>
+    <script>
+        let a = document.getElementById('clrCache')
+        a.addEventListener('click', () => {
+            console.log("asdwd")
+            caches.keys().then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
+        })
+    </script>
 </body>
 
 </html>
