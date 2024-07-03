@@ -8,13 +8,13 @@
     <title>XotEmBotZ Python Repl</title>
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <link rel="shortcut icon" href="public/icon512_rounded.png" type="image/x-icon">
-    <link rel="manifest" href="public/manifest.json">
+    <link rel="shortcut icon" href="local-web-python-interpreter/public/icon512_rounded.png" type="image/x-icon">
+    <link rel="manifest" href="local-web-python-interpreter/public/manifest.json">
 <body>
     <script>
        if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/service-worker.js');
+                navigator.serviceWorker.register('local-web-python-interpreter/service-worker.js');
             });
         }
     </script>
