@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XotEmBotZ Python Repl</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.7.1/core.css">
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.7.1/core.js"></script>
+
+<body>
+    <h1>CS Questions Prepaired By Students of Kendriya Vidyalaya Barrackpore (AFS)</h1>
+    <h1>Website By: Surjyadip Sen</h1>
+    <div>
+        <h2>Which function of a file object can be used to fetch the current cursor position in terms of number of bytes
+            from beginning of file?</h2>
+        <p>Author:OM KUMAR</p>
+        <script type="py-editor">
+            # The function used to fetch the current cursor position in terms of number of bytes from the beginning of the file is:
+            file.tell()
+        </script>
+        
+        <summary><details>Show Answer:</details>tell()</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Irfan has written a code, help him to find the output of his code:</h2>
+        <p>Author:OM KUMAR</p>
+        <script type="py-editor">
+            p = 5
+            def sum(q, r=2):
+                global p
+                p = r + q**2
+                print(p, end="#") 
+            a = 10
+            b = 5
+            sum(a, b)
+            sum(r=5, q=1)
+        </script>
+        
+        <summary><details>Show Answer:</details>105#6#</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Find the Output:</h2>
+        <p>Author:OM KUMAR</p>
+        <script type="py-editor">
+            d = {"Name": "Sapto", "Age": 16}
+            d["Age"] = 17
+            d["address"] = "Barrackpore"
+            print(d.items())
+        </script>
+        
+        <summary><details>Show Answer:</details>[("Name", "Sapto"), ("Age", 17), ("address", "Barrackpore")]</summary>
+        
+    </div>
+    
+    <div>
+        <h2>What is "f" in the following code?</h2>
+        <p>Author:SHRIJIT DESMUKH</p>
+        <script type="py-editor">
+            f = open("bibhore.txt", "r")
+        </script>
+        
+        <summary><details>Show Answer:</details>File handle</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Find the Output:</h2>
+        <p>Author:SHRIJIT DESMUKH</p>
+        <script type="py-editor">
+            def abc():
+                global copy
+                a = 2
+                def xyz():
+                    print(a)
+                copy = xyz
+                a = 10
+            abc()
+            a = 35
+            copy()
+        </script>
+        
+        <summary><details>Show Answer:</details>2</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Find the Output:</h2>
+        <p>Author:BIBHORE BISWAS</p>
+        <script type="py-editor">
+            def func():
+                try:
+                    return 'from_try'
+                finally:
+                    return 'from_finally'
+            print(func())
+        </script>
+        
+        <summary><details>Show Answer:</details>from_finally</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Which one of them is incorrect?</h2>
+        <p>Author:BIBHORE BISWAS</p>
+        <script type="py-editor">
+            def aa(p, r, t=1): pass
+            def aa(p=1000, r=2, t): pass
+            def aa(p=1000, r=2, t=1): pass
+            def aa(p, r=2, t=1): pass
+        </script>
+        
+        <summary><details>Show Answer:</details>def aa(p=1000, r=2, t)</summary>
+        
+    </div>
+    
+    <div>
+        <h2>What will be the suitable option to be filled in the blank?</h2>
+        <p>Author:BIBHORE BISWAS</p>
+        <script type="py-editor">
+            import pickle
+            
+            def count():
+                f1 = open('names.dat', 'rb')
+                c = 0
+                try:
+                    while True:
+                        d = pickle.load(f1)
+                        if d[0] == 'a':
+                            c += 1
+                except EOFError:
+                    print(c)
+                    f1.close()
+        </script>
+        
+        <summary><details>Show Answer:</details>EOFError</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Predict the output:</h2>
+        <p>Author:SNEHIL BHATTACHARYA</p>
+        <script type="py-editor">
+            g = 0
+            def fun1(x, y):
+                global g
+                g = x + y
+                return g
+            def fun2(m, n):
+                global g
+                g = m - n
+                return g
+            x = fun1(2, 3)
+            a = fun2(x, 7)
+            print(a)
+        </script>
+        
+        <summary><details>Show Answer:</details>-2</summary>
+        
+    </div>
+    
+    <div>
+        <h2>What will be the correct output of the following:</h2>
+        <p>Author:SNEHIL BHATTACHARYA</p>
+        <script type="py-editor">
+            4 + 2**2 * 10
+        </script>
+        
+        <summary><details>Show Answer:</details>44</summary>
+        
+    </div>
+    
+    <div>
+        <h2>What will be the output of the following:</h2>
+        <p>Author:SNEHIL BHATTACHARYA</p>
+        <script type="py-editor">
+            def cal(x, y):
+                if x > y:
+                    return x ** y
+                elif y > x:
+                    return y ** x
+                else:
+                    return x ** 1
+            S = cal(2, 3)
+            print(S)
+        </script>
+        
+        <summary><details>Show Answer:</details>9</summary>
+        
+    </div>
+    
+    <div>
+        <h2>Predict the output:</h2>
+        <p>Author:URMILA MANDAL</p>
+        <script type="py-editor">
+            f = open("cricket.txt", "w+")
+            f.write("File-of sachin tendulkar")
+            f.seek(0)
+            a = f.read(5)
+            print(a)
+        </script>
+        
+        <summary><details>Show Answer:</details>File-</summary>
+        
+    </div>
+    
+    <div>
+        <h2>What are the possible outputs expected to be displayed on the screen during the execution of the following code?
+            Also mention the minimum values that can be assigned to the variables BEGIN and LAST.</h2>
+        <p>Author:URMILA MANDAL</p>
+        <script type="py-editor">
+            import random
+            
+            VALUES = [10, 20, 30, 40, 50, 60, 70, 80]
+            BEGIN = random.randint(1, 3)
+            LAST = random.randint(BEGIN, 4)
+            for i in range(BEGIN, LAST + 1):
+                print(VALUES[i], "-")
+        </script>
+        
+        <summary><details>Show Answer:</details> output: 30-40-50; Minimum value of BEGIN: 1; Minimum value of LAST: 1</summary>
+        
+    </div>
+    <div>
+        <h2>Write the output of the code:</h2>
+        <p>Author:URMILA MANDAL</p>
+        <script type="py-editor">
+            a = 30
+            def call(x):
+                global a
+                if a % 2 == 0:
+                    x += a
+                else:
+                    x -= a
+                return x
+            x = 20
+            print(call(35), end='#')
+            print(call(40), end='@')
+        </script>
+        <summary>Show Answer:
+            <details>65#70@</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write a method in Python to write multiple lines of text contents into a text file diary.txt.</h2>
+        <p>Author:URMILA MANDAL</p>
+        <script type="py-editor">
+            def writediary():
+                fileobj = open("diary.txt", 'w')
+                while True:
+                    line = input("Enter line: ")
+                    fileobj.write(line + "\n")
+                    choice = input("Do you want to add more lines? Y/N: ")
+                    if choice == "N":
+                        break
+                fileobj.close()
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    def writediary():
+        fileobj = open("diary.txt", 'w')
+        while True:
+            line = input("Enter line: ")
+            fileobj.write(line + "\n")
+            choice = input("Do you want to add more lines? Y/N: ")
+            if choice == "N":
+                break
+        fileobj.close()
+                </pre>
+            </details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find the output:</h2>
+        <p>Author:NANDINI KUMARI SHAW</p>
+        <script type="py-editor">
+            Name = "HeLloWoRLd123"
+            R = ""
+            for x in range(len(Name)):
+                if Name[x].isupper():
+                    R = R + Name[x].lower()
+                elif Name[x].islower():
+                    R = R + Name[x].upper()
+                elif Name[x].isdigit():
+                    R = R + Name[x]
+                else:
+                    R = R + "#"
+            print(R)
+        </script>
+        <summary>Show Answer:
+            <details>hElLOwOrlD123</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find the output of the following program:</h2>
+        <p>Author:NANDINI KUMARI SHAW</p>
+        <script type="py-editor">
+            def result():
+                i = 9 
+                while i > 1: 
+                    if (i % 2 == 0):
+                        x = i % 2 
+                        i = i - 1 
+                    else:
+                        i = i - 2 
+                        x = i 
+                    print(x ** 2)
+            result()
+        </script>
+        <summary>Show Answer:
+            <details>49\n25\n9\n1</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>In text files, each line of text is terminated with a special character known as __.</h2>
+        <p>Author:NANDINI KUMARI SHAW</p>
+        <script type="py-editor">
+            # Answer:
+            # End of line
+        </script>
+        <summary>Show Answer:
+            <details>End of line</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write a function that repeatedly asks a number from user and display sum all those number until user types
+            'done'.</h2>
+        <p>Author:AKASH BISWAS</p>
+        <script type="py-editor">
+            def sumnum():
+                total = 0
+                s = input("Enter a number or 'done': ")
+                while s != 'done':
+                    s = int(s)
+                    total += s
+                    s = input("Enter a number or 'done': ")
+                print("Total sum of numbers is", total)
+            sumnum()
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    def sumnum():
+        total = 0
+        s = input("Enter a number or 'done': ")
+        while s != 'done':
+            s = int(s)
+            total += s
+            s = input("Enter a number or 'done': ")
+        print("Total sum of numbers is", total)
+    sumnum()
+                </pre>
+            </details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find the output of the following code:</h2>
+        <p>Author:AKASH BISWAS</p>
+        <script type="py-editor">
+            def outer():
+                x = "local"
+                def inner():
+                    nonlocal x
+                    x = "nonlocal"
+                    print("inner:", x)
+                inner()
+                print("outer:", x)
+            outer()
+        </script>
+        <summary>Show Answer:
+            <details>
+                inner: nonlocal<br>
+                outer: nonlocal
+            </details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find the type of error (if any) in the following code:</h2>
+        <p>Author:AKASH BISWAS</p>
+        <script type="py-editor">
+            x = "abcdef"
+            while i in x:
+                print(i, end=" ")
+        </script>
+        <summary>Show Answer:
+            <details>Name error</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find the output of the following code:</h2>
+        <p>Author:AYUSH SRIVASTAVA</p>
+        <script type="py-editor">
+            cs_xii = "studycs@everyone"
+            print(cs_xii[-1:7:-1], cs_xii[9:0:-3])
+        </script>
+        <summary>Show Answer:
+            <details>enoyreve vsd</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write a function which takes a list of names from the users and replaces the names with more than 5 letters with
+            a random number (take the range of the number from the user).</h2>
+        <p>Author:AYUSH SRIVASTAVA</p>
+        <script type="py-editor">
+            import random
+            def name_fun(s):
+                lst = []
+                a = int(input("Enter any number: "))
+                for i in s:
+                    if len(i) > 5:
+                        b = random.randrange(a)
+                        lst.append(b)
+                    else:
+                        lst.append(i)
+                print(lst)
+            x = eval(input("Enter any list: "))
+            name_fun(x)
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    import random
+    def name_fun(s):
+        lst = []
+        a = int(input("Enter any number: "))
+        for i in s:
+            if len(i) > 5:
+                b = random.randrange(a)
+                lst.append(b)
+            else:
+                lst.append(i)
+        print(lst)
+    x = eval(input("Enter any list: "))
+    name_fun(x)
+                </pre>
+            </details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which file mode is used to both read and write in binary file mode?</h2>
+        <p>Author:AYUSH SRIVASTAVA</p>
+        <script type="py-editor">
+            # Answer:
+            # wb+
+        </script>
+        <summary>Show Answer:
+            <details>wb+</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write a Python program that inputs a string from the user and counts the number of words starting and ending
+            with 'a' in that string.</h2>
+        <p>Author:TANISH KUMAR</p>
+        <script type="py-editor">
+            string = input("Enter a string: ")
+            words = string.split()
+            count = 0
+            for word in words:
+                if word[0].lower() == 'a' and word[-1].lower() == 'a':
+                    count += 1
+            print("The number of words starting and ending with 'a' is:", count)
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    string = input("Enter a string: ")
+    words = string.split()
+    count = 0
+    for word in words:
+        if word[0].lower() == 'a' and word[-1].lower() == 'a':
+            count += 1
+    print("The number of words starting and ending with 'a' is:", count)
+                </pre>
+            </details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write a Python program to input two numbers and calculate and print their LCM (least common multiple). Example:
+            If the numbers are 9 and 12, then LCM is 36.</h2>
+        <p>Author:TANISH KUMAR</p>
+        <script type="py-editor">
+            import math
+            def lcm(a, b):
+                lcm = (a * b) // math.gcd(a, b)
+                return lcm
+            print(lcm(9, 12))
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    import math
+    def lcm(a, b):
+        lcm = (a * b) // math.gcd(a, b)
+        return lcm
+    print(lcm(9, 12))
+                </pre>
+            </details>
+        </summary>
+    </div>
+    <div>
+        <h2>In file pointer ______ mode is used to seek from end of the file</h2>
+        <p>Author:TANISH KUMAR</p>
+        <script type="py-editor">
+            # Answer:
+            # 2
+        </script>
+        <summary>Show Answer:
+            <details>2</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which is the correct form of declaration of dictionary?</h2>
+        <p>Author:TANNISHTHA BISWAS</p>
+        <script type="py-editor">
+            # Answer:
+            # (i) Day = {1: 'monday', 2: 'tuesday', 3: 'wednesday', 4: 'thursday'}
+        </script>
+        <summary>Show Answer:
+            <details>(i) Day = {1: 'monday', 2: 'tuesday', 3: 'wednesday', 4: 'thursday'}</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>To open a file c:\ test.txt for writing, we should use the statement:</h2>
+        <p>Author:TANNISHTHA BISWAS</p>
+        <script type="py-editor">
+            # Answer:
+            # (ii) fobj = open("c:\\ test.txt", "w")
+        </script>
+        <summary>Show Answer:
+            <details>(ii) fobj = open("c:\\ test.txt", "w")</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>import random languages=['python','java','PHP','HTML','C++'] pos=random.randint(1,4) for c in range(0,pos+1):
+            print(languages[c],end="&") What possible output(s) is expected to be displayed on the screen at the time of
+            execution of the program?</h2>
+        <p>Author:TANNISHTHA BISWAS</p>
+        <script type="py-editor">
+            import random
+            languages = ['python', 'java', 'PHP', 'HTML', 'C++']
+            pos = random.randint(1, 4)
+            for c in range(0, pos + 1):
+                print(languages[c], end="&")
+        </script>
+        <summary>Show Answer:
+            <details>python&java&PHP&HTML&C++&</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>What will be displayed by the following code:</h2>
+        <p>Author:ADIPTA BARMAN</p>
+        <script type="py-editor">
+            import pickle
+            Names = ['First', 'second', 'third', 'fourth', 'Fifth']
+            lst = []
+            for i in range(-1, -5, -1):
+                lst.append(Names[i])
+            with open('test.dat', 'wb') as fout:
+                pickle.dump(lst, fout)
+            with open('test.dat', 'rb') as fin:
+                nlist = pickle.load(fin)
+            print(nlist)
+        </script>
+        <summary>Show Answer:
+            <details>['Fifth', 'fourth', 'third', 'second']</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find and write the output of the following code:</h2>
+        <p>Author:ADIPTA BARMAN</p>
+        <script type="py-editor">
+            def fun(s):
+                k = len(s)
+                m = ""
+                for i in range(0, k):
+                    if s[i].isupper():
+                        m = m + s[i].lower()
+                    elif s[i].isalpha():
+                        m = m + s[i].upper()
+                    else:
+                        m = m + 'bb'
+                print(m)
+    
+            fun('school2@com')
+        </script>
+        <summary>Show Answer:
+            <details>SCHOOLbbbbCOM</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Consider the following code:</h2>
+        <p>Author:ADIPTA BARMAN</p>
+        <script type="py-editor">
+            string = input("Enter a string :")
+            count = 3
+            while True:
+                if string[0] == 'a':
+                    string = string[2:]
+                elif string[-1] == 'b':
+                    string = string[:-2]
+                else:
+                    count += 1
+                    break
+            print(string)
+            print(count)
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    (i) aabbcc -> bbcc -> 4
+    (ii) aaccbb -> cc -> 4
+    (iii) abcc -> cc -> 4
+                </pre>
+            </details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which of the following statements is true about lists?</h2>
+        <p>Author:PRITHWEE KANT JHA</p>
+        <script type="py-editor">
+            # Answer:
+            # B) They can hold elements of different data types.
+        </script>
+        <summary>Show Answer:
+            <details>B) They can hold elements of different data types.</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Output?</h2>
+        <p>Author:PRITHWEE KANT JHA</p>
+        <script type="py-editor">
+            x = 5
+            y = 2
+            z = x / y
+            print(z)
+        </script>
+        <summary>Show Answer:
+            <details>B) 2.5</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>The loop in Python which is used when a set of statements has to be executed as long as a condition is true?
+        </h2>
+        <p>Author:PRITHWEE KANT JHA</p>
+        <script type="py-editor">
+            # Answer:
+            # B) while loop
+        </script>
+        <summary>Show Answer:
+            <details>B) while loop</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which of the following is the correct Python statement to display the first 9 characters of a text file
+            "Class.txt"?</h2>
+        <p>Author:ADARSH CHAUDHARY</p>
+        <script type="py-editor">
+            # Answer:
+            # G = open('Class.txt')
+            # print(G.read(9))
+        </script>
+        <summary>Show Answer:
+            <details>G = open('Class.txt')<br>print(G.read(9))</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which function is used to read a single line from a file?</h2>
+        <p>Author:ADARSH CHAUDHARY</p>
+        <script type="py-editor">
+            # Answer:
+            # readline()
+        </script>
+        <summary>Show Answer:
+            <details>readline()</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write a method in Python to read lines from a text file 'hello.txt' and display the number of lines which start
+            with the alphabet k.</h2>
+        <p>Author:ADARSH CHAUDHARY</p>
+        <script type="py-editor">
+            def countk():
+                f = open("hello.txt", "r")
+                C = 0
+                l = f.readlines()
+                for i in l:
+                    if i[0].lower() == 'k':
+                        C += 1
+                print("No of lines are:", C)
+                f.close()
+        </script>
+        <summary>Show Answer:
+            <details>
+                <pre>
+    def countk():
+        f = open("hello.txt", "r")
+        C = 0
+        l = f.readlines()
+        for i in l:
+            if i[0].lower() == 'k':
+                C += 1
+        print("No of lines are:", C)
+        f.close()
+                </pre>
+            </details>
+        </summary>
+    </div>
+    <div>
+        <h2>State true or false - In python, to open a file in write mode, the file must exist.</h2>
+        <p>Author:ARINDAM PAUL</p>
+        <script type="py-editor">
+            # Answer:
+            # False
+        </script>
+        <summary>Show Answer:
+            <details>False</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which of the following is not a function?</h2>
+        <p>Author:ARINDAM PAUL</p>
+        <script type="py-editor">
+            # Answer:
+            # A) input()
+            # B) range()
+            # C) del 
+            # D) load()
+        </script>
+        <summary>Show Answer:
+            <details>C) del</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which of the following can't be used with strings?</h2>
+        <p>Author:ARINDAM PAUL</p>
+        <script type="py-editor">
+            # Answer:
+            # A) +
+            # B) *
+            # C) //
+            # D) not in
+        </script>
+        <summary>Show Answer:
+            <details>C) //</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Consider the following function definition in Python: def add_numbers(a, b): return a + b What is the output of
+            add_numbers(3, 7)?</h2>
+        <p>Author:SAPTAPARNO DEBNATH</p>
+        <script type="py-editor">
+            def add_numbers(a, b):
+                return a + b
+            
+            print(add_numbers(3, 7))
+        </script>
+        <summary>Show Answer:
+            <details>A) 10</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>What will be the output of the following Python code snippet?</h2>
+        <p>Author:SAPTAPARNO DEBNATH</p>
+        <script type="py-editor">
+            def greet(name):
+                return "Hello, " + name + "!"
+            
+            print(greet("Alice"))
+        </script>
+        <summary>Show Answer:
+            <details>A) Hello, Alice!</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>What will be the output of the following statement: print(16*5/4*2/5-8)</h2>
+        <p>Author:PRITAM PRAMANICK</p>
+        <script type="py-editor">
+            print(16*5/4*2/5-8)
+        </script>
+        <summary>Show Answer:
+            <details>(c) 0.0</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Consider the statements given below and then choose the correct output from the given options:
+            myStr="MISSISSIPPI" print(myStr[:4] + "#" + myStr[-5:])</h2>
+        <p>Author:PRITAM PRAMANICK</p>
+        <script type="py-editor">
+            myStr = "MISSISSIPPI"
+            print(myStr[:4] + "#" + myStr[-5:])
+        </script>
+        <summary>Show Answer:
+            <details>(b) MISS#SIPPI</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Select the correct output of the following code: event="G20 Presidency@2023" L=event.split(' ') print(L[::-2])
+        </h2>
+        <p>Author:PRITAM PRAMANICK</p>
+        <script type="py-editor">
+            event = "G20 Presidency@2023"
+            L = event.split(' ')
+            print(L[::-2])
+        </script>
+        <summary>Show Answer:
+            <details>(b) ['Presidency@2023']</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Select the correct output from the given options:</h2>
+        <p>Author:PRITAM PRAMANICK</p>
+        <script type="py-editor">
+            # Answer:
+            # (a) 10
+            # (b) 20
+            # (c) 30
+            # (d) Error
+        </script>
+        <summary>Show Answer:
+            <details>(b) 20</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>What is the purpose of the global keyword in Python?</h2>
+        <p>Author:ANKITA DAS</p>
+        <script type="py-editor">
+            # Answer:
+            # a) To define a variable inside a function
+            # b) To access a variable outside a function
+            # c) To modify a variable defined in the global scope from within a function
+            # d) To specify a variable as constant
+        </script>
+        <summary>Show Answer:
+            <details>(c) To modify a variable defined in the global scope from within a function</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Write the output of the following- f = open("test.txt", "w+") f.write("File-Handling") f.seek(0) a = f.read(5)
+            print(a)</h2>
+        <p>Author:ANKITA DAS</p>
+        <script type="py-editor">
+            f = open("test.txt", "w+")
+            f.write("File-Handling")
+            f.seek(0)
+            a = f.read(5)
+            print(a)
+        </script>
+        <summary>Show Answer:
+            <details>File-</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>What will be the output of the following Python code?</h2>
+        <p>Author:ANKITA DAS</p>
+        <script type="py-editor">
+            def foo():
+                try:
+                    print(1)
+                finally:
+                    print(2)
+            
+            foo()
+        </script>
+        <summary>Show Answer:
+            <details>1 2</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Find the output of the following code:</h2>
+        <p>Author:SAYANTAN MODAK</p>
+        <script type="py-editor">
+            data = ["L", 20, "M", 40, "N", 60]
+            times = 0
+            alpha = ""
+            add = 0
+            for c in range(1, 6, 2):
+                times = times + c
+                alpha = alpha + data[c-1] + "@"
+                add = add + data[c]
+            print(times, add, alpha)
+        </script>
+        <summary>Show Answer:
+            <details>3 60 L@M@</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Given the following dictionaries: dict_exam={"Exam":"AISSCE", "Year":2023} dict_result={"Total":500,
+            "Pass_Marks":165} Which statement will merge the contents of both dictionaries?</h2>
+        <p>Author:IRFAN SHAIKH</p>
+        <script type="py-editor">
+            dict_exam = {"Exam": "AISSCE", "Year": 2023}
+            dict_result = {"Total": 500, "Pass_Marks": 165}
+            dict_exam.update(dict_result)
+            print(dict_exam)
+        </script>
+        <summary>Show Answer:
+            <details>a. dict_exam.update(dict_result)</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>Which of the following mode in file opening statement results or generates an error if the file does not exist?
+        </h2>
+        <p>Author:IRFAN SHAIKH</p>
+        <script type="py-editor">
+            # Answer:
+            # (a) a+
+            # (b) r+
+            # (c) w+
+            # (d) None of the above
+        </script>
+        <summary>Show Answer:
+            <details>(b) r+</details>
+        </summary>
+    </div>
+    
+    <div>
+        <h2>What will the following expression be evaluated to in Python? print(15.0 / 4 + (8 + 3.0))</h2>
+        <p>Author:IRFAN SHAIKH</p>
+        <script type="py-editor">
+            print(15.0 / 4 + (8 + 3.0))
+        </script>
+        <summary>Show Answer:
+            <details>(a) 14.75</details>
+        </summary>
+    </div>
+    <div>
+    <h2>What is the value of x?</h2>
+    <p>Author:ROUSHAN SINGH</p>
+    <script type="py-editor">
+        x = int(13.25 + 4/2)
+        print(x)
+    </script>
+    <summary>Show Answer:
+        <details>ANSWER=15</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Write the output of the following:</h2>
+    <p>Author:ROUSHAN SINGH</p>
+    <script type="py-editor">
+        def cal(a,b):
+            if a == b:
+                return a * 3
+            else:
+                return a * 2
+        
+        s = cal(9, 9)
+        print(s)
+    </script>
+    <summary>Show Answer:
+        <details>ANSWER=27</details>
+    </summary>
+</div>
+
+<div>
+    <h2>For handling data files in Python, we need to have ……………………….</h2>
+    <p>Author:ROUSHAN SINGH</p>
+    <script type="py-editor">
+        # Answer:
+        # a) memory
+        # b) file object
+        # c) software
+        # d) All of these
+    </script>
+    <summary>Show Answer:
+        <details>ANSWER=file object</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Consider the given expression: not True and False or True</h2>
+    <p>Author:ESHAAN DEY</p>
+    <script type="py-editor">
+        # Answer:
+        # (a) True
+        # (b) False
+        # (c) NONE
+        # (d) NULL
+    </script>
+    <summary>Show Answer:
+        <details>Ans-: a] true</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Which of the following commands is used to write the list L into the binary file, STUDENT.DAT?</h2>
+    <p>Author:ESHAAN DEY</p>
+    <script type="py-editor">
+        # Answer:
+        # a. pickle.write(L,f)
+        # b. pickle.write(f, L)
+        # c. pickle.dump(L,F)
+        # d. f=pickle.dump(L)
+    </script>
+    <summary>Show Answer:
+        <details>Ans-: C] pickle.dump(L,F)</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Find the output?</h2>
+    <p>Author:ESHAAN DEY</p>
+    <script type="py-editor">
+        def Xyz():
+            a = 100
+            print(a + b)
+        
+        a = 10
+        b = 20
+        Xyz()
+    </script>
+    <summary>Show Answer:
+        <details>Ans-: d] 120</details>
+    </summary>
+</div>
+
+<div>
+    <h2>In which file, no delimiters are used for line and no translations occur?</h2>
+    <p>Author:AMRIT</p>
+    <script type="py-editor">
+        # Answer:
+        # A. text file
+        # B. Binary file
+        # C. Executable file
+        # D. all of these
+    </script>
+    <summary>Show Answer:
+        <details>ans: B</details>
+    </summary>
+</div>
+
+<div>
+    <h2>The function converts all uppercase letters in string to lowercase letters.</h2>
+    <p>Author:AMRIT</p>
+    <script type="py-editor">
+        # Answer:
+        # A. upper()
+        # B. lower()
+        # C. islower()
+        # D. all of these
+    </script>
+    <summary>Show Answer:
+        <details>ans: B</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Non-void functions are also known as</h2>
+    <p>Author:AMRIT</p>
+    <script type="py-editor">
+        # Answer:
+        # A. non functions
+        # B. Valid functions
+        # C. fruitful functions
+        # D. None of these
+    </script>
+    <summary>Show Answer:
+        <details>Ans: C. fruitful functions</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Which of the following statements about functions in Python is true?</h2>
+    <p>Author:ANKIT KUMAR SHAW</p>
+    <script type="py-editor">
+        # Answer:
+        # A. A function can only return a single value.
+        # B. A function cannot call another function.
+        # C. Functions can have default argument values.
+        # D. Variables defined inside a function are accessible outside the function.
+    </script>
+    <summary>Show Answer:
+        <details>Answer: C. Functions can have default argument values.</details>
+    </summary>
+</div>
+
+<div>
+    <h2>What will be the output of the following code snippet?</h2>
+    <p>Author:ANKIT KUMAR SHAW</p>
+    <script type="py-editor">
+        try:
+            x = 10 / 0
+        except ZeroDivisionError:
+            print("Division by zero!")
+        finally:
+            print("This will always execute.")
+    </script>
+    <summary>Show Answer:
+        <details>Correct Answer: D. Division by zero! This will always execute.</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Which of the following modes is used to open a binary file for reading in Python?</h2>
+    <p>Author:ANKIT KUMAR SHAW</p>
+    <script type="py-editor">
+        # Answer:
+        # A. 'r'
+        # B. 'rb'
+        # C. 'wb'
+        # D. 'w'
+    </script>
+    <summary>Show Answer:
+        <details>Correct Answer: B. ‘rb’</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Given is a Python string declaration: message='FirstPreBoardExam@2022-23' Write the output of: print(message[::-3].upper())</h2>
+    <p>Author:DINOVA KUMAR SARKAR</p>
+    <script type="py-editor">
+        message = 'FirstPreBoardExam@2022-23'
+        print(message[::-3].upper())
+    </script>
+    <summary>Show Answer:
+        <details>ANS:- 322ADORSF</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Write the output of the code given below:</h2>
+    <p>Author:DINOVA KUMAR SARKAR</p>
+    <script type="py-editor">
+        d1 = {'rno': 25, 'name': 'dipanshu'}
+        d2 = {'name': 'himanshu', 'age': 30, 'dept': 'mechanical'}
+        d2.update(d1)
+        print(d2.keys())
+    </script>
+    <summary>Show Answer:
+        <details>ANS:- dict_keys(['name', 'age', 'dept', 'rno'])</details>
+    </summary>
+</div>
+
+<div>
+    <h2>Choose the correct statement</h2>
+    <p>Author:AVIRUP BAG</p>
+    <script type="py-editor">
+        # Answer:
+        # a. We can create function with no argument and no return value.
+        # b. We can create function with no argument and with return value(s)
+        # c. We can create function with argument(s) and no return value.
+        # d. All of the above
+    </script>
+    <summary>Show Answer:
+        <details>Ans) (d) all of the above</details>
+    </summary>
+</div>
+
+<div>
+    <h2>What is the output of the below program?</h2>
+    <p>Author:AVIRUP BAG</p>
+    <script type="py-editor">
+        def sayHello():
+            print('Hello World!')
+        
+        sayHello()
+        sayHello()
+    </script>
+    <summary>Show Answer:
+        <details>Ans) (a) Hello World! Hello World!</details>
+    </summary>
+</div>
+
+<div>
+    <h2>The area in which a variable can be accessed is called its ___________</h2>
+    <p>Author:AVIRUP BAG</p>
+    <script type="py-editor">
+        # Answer:
+        # a. active area
+        # b. lifetime
+        # c. scope
+        # d. live area
+    </script>
+    <summary>Show Answer:
+        <details>Ans) (C) scope</details>
+    </summary>
+</div>
+
+
+</body>
+
+</html>
